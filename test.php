@@ -50,6 +50,9 @@
           <li class="nav-item" >
             <a class="nav-link" href="News.html" ">News</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact Us</a>
+          </li>
         </ul>
       </div>
     </nav>
