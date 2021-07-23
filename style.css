@@ -1,0 +1,520 @@
+*{
+	margin: 0;
+}
+
+body{
+	background-color: #EDB211;
+	background-image: url("res/banner_CRCSriLanka-banner.png");
+	background-repeat: no-repeat;
+	/*background-size: cover;*/
+	width: 100%;
+}
+
+#logo-01{
+	top: 15px;
+	left: 37px;
+	width: 369px;
+	height: 168px;
+}
+
+#header{
+	/*background-image: url("res/banner_CRCSriLanka-banner/banner_CRCSriLanka-banner.png");*/
+	/*background-size: cover;
+	height: 847px;*/
+}
+
+.header{
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+.header ul{
+	text-align: center;
+}
+
+.header ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.header ul li a{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	/*font-size: 20px;*/
+	font: normal normal bold 38px/46px Helvetica Neue;
+	letter-spacing: 0px;
+	/*font-weight: 600;*/
+	padding: 25px;
+	transition: all ease 0.5s;
+	opacity: 1;
+}
+
+.header ul li a:hover{
+	background-color: #211b4385;
+}
+
+#quots{
+	text-align: center;
+	margin-top: 5%;
+}
+#quots1{
+	text-align: center;
+	font: normal normal 800 124px/151px Gilroy;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	/*font-family: Gilroy;*/
+}
+
+#quots2{
+	margin-top: 2px;
+	text-align: center;
+	font: normal normal 300 46px/53px Gilroy;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+#DONATE_botton{
+	margin-top: 5%;
+	border: 3px solid #FFFFFF;
+	border-radius: 59px;
+	font: normal normal bold 40px/45px Arial;
+	color: #FFFFFF;
+}
+
+#our_goal{
+	width: 491px;
+	height: 491px;
+	display: inline-block;
+	background: #0A0B01 0% 0% no-repeat padding-box;
+	box-shadow: 10px 10px 30px #00000064;
+	opacity: 0.95;
+	top: 130px;
+	left: 100px;
+
+}
+
+#our_goal h2{
+	position: sticky;
+	text-align: center;
+	font: normal normal 900 56px/78px Myriad Pro;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+#our_goal h4{
+	text-align: center;
+	font: normal normal normal 32px/37px Arial;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+#our_goal img{
+	width: 252px;
+	height: 252px;
+	margin-left: 90px;
+}
+
+#our_team{
+	width: 491px;
+	height: 491px; 
+	display: inline-block;
+	background: #C93E00 0% 0% no-repeat padding-box;
+	box-shadow: 10px 10px 30px #0000006C;
+	opacity: 0.96;
+	top: 240px;
+	left: 200px;
+	
+}
+
+#our_team h2{
+	position: sticky;
+	text-align: center;
+	font: normal normal 900 56px/78px Myriad Pro;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+#our_team h4{
+	text-align: center;
+	font: normal normal normal 32px/37px Arial;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+#our_team img{
+	width: 261px;
+	height: 282px;
+	margin-left: 100px;
+}
+
+#our_projects{
+	width: 491px;
+	height: 491px; 
+	display: inline-block;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 10px 10px 30px #0000004B;
+	opacity: 0.96;
+	top: 130px;
+	left: 300px;
+}
+
+#our_projects h2{
+	position: sticky;
+	text-align: center;
+	font: normal normal 900 56px/78px Myriad Pro;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
+
+#our_projects h4{
+	text-align: center;
+	font: normal normal normal 32px/37px Arial;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
+
+#our_projects img{
+	width: 242px;
+	height: 262px;
+	margin-left: 125px;
+}
+/******************************************************************************/
+
+#about{
+	background: transparent linear-gradient(180deg, #EDB211 0%, #ACA019 100%) 0% 0% no-repeat padding-box;
+	opacity: 1;
+	margin-top: 15%;
+/*	background: transparent url('res/back_logo-01.png') 0% 0% no-repeat padding-box;
+*/	/*opacity: 0.16;
+
+*/}
+
+#about h1{
+	text-align: center;
+	font: normal normal bold 90px/103px Arial;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	}
+
+#about h3{
+	text-align: center;
+	font: normal normal normal 48px/55px Baskerville;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	margin-top: 90px;
+}
+
+#about hr{
+	border: 6px solid #C94201;
+	opacity: 1;
+	width: 120px;
+	border-radius: 10px;
+	margin-left: 47%;
+}
+/******************************************************************************/
+/*#about_pictures{
+	background-color:#ACA019 ;
+}*/
+#about_pictures_img1{
+	width: 500px;
+	height: 350px;
+	overflow: hidden;
+	margin-left: 60px;
+}
+
+#about_pictures_img2{
+	width: 420px;
+	height: 320px;
+	overflow: hidden;
+}
+
+#about_pictures_img3{
+	width: 400px;
+	height: 337px;
+	overflow: hidden;
+}
+
+#about_pictures_img4{
+	width: 400px;
+	height: 346px;
+	overflow: hidden;
+}
+/******************************************************************************/
+#TESTIMONIALS{
+	background-color: #FFFFFF;
+}
+
+#TESTIMONIALS h1{
+	text-align: center;
+	font: normal normal bold 90px/103px Arial;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	padding-top: 30px;
+}
+
+#TESTIMONIALS hr{
+	border: 6px solid #C94201;
+	opacity: 1;
+	width: 120px;
+	border-radius: 10px;
+	margin-left: 47%;
+}
+
+#TESTIMONIALS  img{
+	width: 566px;
+	height: 340px;
+	border: 1px solid #707070;
+	opacity: 1;
+	display: inline-block;
+}
+
+#TESTIMONIALS .card{
+	width: 566px;
+	height: 819px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+	display: inline-block;
+	margin: 10px;
+}
+#TESTIMONIALS .card p{
+	width: 455px;
+	height: 108px;
+	text-align: left;
+	font: normal normal 900 45px/63px Myriad Pro;
+	letter-spacing: 0px;
+	color: #C94201;
+	opacity: 1;
+}
+
+#TESTIMONIALS .card h2{
+	margin-top: 80px;
+	width: 451px;
+	height: 151px;
+	text-align: left;
+	font: normal normal normal 33px/38px Arial;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
+
+#TESTIMONIALS .card  a{
+	text-align: left;
+	font: normal normal bold 33px/38px Arial;
+	letter-spacing: 0px;
+	color: #ACA019;
+	opacity: 1;
+}
+/******************************************************************************/
+#whats_new{
+	background-color: #FFFFFF;
+	padding-top: 80px;
+}
+
+#whats_new h1{
+	/*width: 638px;
+	height: 100px;*/
+	text-align: center;
+	font: normal normal bold 90px/103px Arial;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	text-transform: uppercase;
+}
+
+#whats_new hr{
+	border: 6px solid #C94201;
+	opacity: 1;
+	width: 120px;
+	border-radius: 10px;
+	margin-left: 47%;
+}
+
+#whats_new .card{
+	width: 813px;
+	height: 600px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+	display: inline-block;
+	margin: 50px;
+
+}
+
+#whats_new .card img{
+	background: #BCBCBC 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+#whats_new .card p{
+	width: 455px;
+	height: 108px;
+	text-align: left;
+	font: normal normal 900 45px/63px Myriad Pro;
+	letter-spacing: 0px;
+	color: #C94201;
+	opacity: 1;
+	margin-top: 370px;
+}
+
+#whats_new .card a{
+	width: 301px;
+	height: 37px;
+	text-align: left;
+	font: normal normal bold 33px/38px Arial;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
+/******************************************************************************/
+#footer{
+	background: #444A3A 0% 0% no-repeat padding-box;
+	/*border: 1px solid #707070;*/
+	opacity: 1;
+	width: 1920px;
+	height: 900px;
+}
+
+#footer hr{
+	margin-top: 80px;
+	color: #FFFFFF;
+	width: 75%;
+	height: 4px;
+	margin-left: 200px;}
+
+#sub_footer_1{
+	background-color: #444A3A;
+	width: 49.5%;
+	display: inline-block;
+	/*height: 1000px;*/
+}
+
+#sub_footer_1 h1 {
+	height: 44px;
+	text-align: center;
+	font: normal normal bold 40px/45px Arial;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	text-transform: uppercase;
+	margin-top: 250px;
+
+}
+
+#sub_footer_1 h2{
+	height: 44px;
+	text-align: center;
+	font: normal normal normal 40px/45px Arial;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+#sub_footer_1 img{
+	position: sticky;
+	margin-top: 150px;
+	margin-left: 230px;
+}
+
+#sub_footer_2{
+	background-color: #444A3A;
+	width: 49.5%;
+	display: inline-block;
+	/*height: 1000px;*/
+	position: absolute;
+	padding-top: 120px;
+}
+
+#sub_footer_2 .form-control{
+	width: 644px;
+	height: 110px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+#sub_footer_2  #name{
+	text-align: left;
+	font: normal normal bold 40px/45px Arial;
+	letter-spacing: 0px;
+	color: #000000;
+	/*opacity: 0.53;*/
+}
+
+#sub_footer_2 #email{
+	text-align: left;
+	font: normal normal bold 40px/45px Arial;
+	letter-spacing: 0px;
+	color: #000000;
+	/*opacity: 0.48;*/
+}
+
+#sub_footer_2 #message{
+	text-align: left;
+	font: normal normal bold 40px/45px Arial;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 0.4;
+}
+
+#sub_footer_2 #message{
+	width: 644px;
+	height: 320px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+#sub_footer_2 #send{
+	width: 313px;
+	height: 110px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	border-radius: 23px;
+	opacity: 1;
+	text-align: center;
+	font: normal normal bold 40px/45px Arial;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	text-transform: uppercase;
+}
+/******************************************************************************/
+#faq{
+	background: #444A3A 0% 0% no-repeat padding-box;
+	height: 200px;
+}
+#faq h1{
+	text-align: left;
+	font: normal normal normal 40px/45px Arial;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	padding-left: 280px;
+}
+
+#faq hr{
+	position: sticky;
+}
+
+/*#faq img{
+	width: 37px;
+	height: 37px;
+}
+
+#faq #insta{
+	position:absolute;
+}*/
